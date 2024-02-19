@@ -18,4 +18,16 @@ int main()
         }
         cout << endl;
     }
+
+
+
+    //#2
+
+    vector<int> q(10);
+
+    for (int i = 0; i < 10; i++)
+    {
+        q[i] = i * i;
+        cout << q[i] << endl;
+    }
 }
